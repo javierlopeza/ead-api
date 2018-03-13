@@ -22,4 +22,7 @@ from app import views
 from app.docs.views import docs
 app.register_blueprint(docs)
 
+from app.predictions.views import predictions
+app.register_blueprint(predictions)
+
 
