@@ -4,16 +4,18 @@ The api enables you to create/ register a user within the application.
 This API is hosted [here](https://datax-ead-api.herokuapp.com/) on [Heroku](heroku.com).
 
 ## Usage
+
+## Run
 - [Installing requirements](#installing-requirements)
 - [Running the application](#starting-the-application)
 
-## Installing requirements
+### Installing requirements
 In order to install every Python package required to run the application, run the command below.
 ```
 pip install -r requirements.txt
 ```
 
-## Running the application
+### Running the application
 In order to run the application set the environment variable below.
 ```
 Windows
