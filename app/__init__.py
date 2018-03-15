@@ -19,10 +19,10 @@ app.config.from_object(app_settings)
 from app import views
 
 # Register blue prints
-from app.docs.views import docs
-app.register_blueprint(docs)
+from app.home.views import home
+app.register_blueprint(home)
 
-from app.predictions.views import predictions
-app.register_blueprint(predictions)
+from app.model.views import model
+app.register_blueprint(model)
 
 
