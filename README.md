@@ -7,7 +7,7 @@ This API is hosted [here](https://datax-ead-api.herokuapp.com/) on [Heroku](hero
 
 ## Run
 - [Installing requirements](#installing-requirements)
-- [Running the application](#starting-the-application)
+- [Running the application](#running-the-application)
 
 ### Installing requirements
 In order to install every Python package required to run the application, run the command below.
