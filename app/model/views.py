@@ -37,7 +37,7 @@ def predict():
 		#Load the saved model
 		print("Loading the model...")
 		loaded_model = None
-		with open('./model/models/'+clf,'rb') as f:
+		with open('./model/models/' + clf,'rb') as f:
 			loaded_model = pickle.load(f)
 
 		print("The model has been loaded...doing predictions now...")

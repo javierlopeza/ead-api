@@ -19,7 +19,7 @@ def method_not_found(e):
     :param e: Exception
     :return:
     """
-    return response('failed', 'The method is not allowed for the requested URL', 405)
+    return response('failed', 'Method not allowed for the requested URL', 405)
 
 
 @app.errorhandler(500)

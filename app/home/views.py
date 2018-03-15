@@ -9,4 +9,4 @@ def index():
     Show an index template
     :return:
     """
-    return response("OK", "", 200)
+    return response("success", "Everything working fine!", 200)
