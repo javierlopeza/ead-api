@@ -1,8 +1,7 @@
 # Early Autism Detection API
 
 The api enables you to create/ register a user within the application.
-
-This API is hosted [here](https://datax-ead-api.herokuapp.com/) on [heroku](heroku.com)
+This API is hosted [here](https://datax-ead-api.herokuapp.com/) on [Heroku](heroku.com).
 
 ## Usage
 - [Installing requirements](#installing-requirements)
