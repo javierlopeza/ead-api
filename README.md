@@ -17,13 +17,17 @@ pip install -r requirements.txt
 
 ### Running the application
 In order to run the application set the environment variable below.
-```
+
 Windows
+```
 set FLASK_APP=run.py
+```
 
 Unix
+```
 export FLASK_APP=run.py
 ```
+
 Then run the command below to start the application.
 ```
 flask run
