@@ -10,8 +10,8 @@ model = Blueprint('model', __name__)
 @model.route('/predict', methods=['POST'])
 def predict():
 	"""
-	Show an index template
-	:return:
+	Receives input parameters to return a prediction by loading the previously trained model.
+	:return: Http Response
 	"""
 	try:
 		test_json = request.get_json()
@@ -57,5 +57,4 @@ def predict():
 		responses = jsonify(predictions=final_predictions.to_json(orient="records"))
 		responses.status_code = 200
 
-		# return (responses)
-		return response("OK", "EAD REST API", 200)
+		return (responses)

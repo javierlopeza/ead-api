@@ -6,7 +6,7 @@ home = Blueprint('home', __name__)
 @home.route('/')
 def index():
     """
-    Show an index template
-    :return:
+    Show an index Http response template
+    :return: Http Response
     """
     return response("success", "Everything working fine!", 200)
