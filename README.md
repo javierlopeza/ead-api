@@ -18,12 +18,12 @@ pip install -r requirements.txt
 ### Running the application
 In order to run the application set the environment variable below.
 
-Windows
+_For Windows:_
 ```
 set FLASK_APP=run.py
 ```
 
-Unix
+_For Unix:_
 ```
 export FLASK_APP=run.py
 ```
