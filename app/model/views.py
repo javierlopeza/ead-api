@@ -35,3 +35,11 @@ def predict():
 	responses.status_code = 200
 
 	return responses
+
+
+from random import randint
+@model.route('/predict2', methods=['POST'])
+def predict2():
+	response = jsonify(results=[randint(0,10) for _ in range(10)])
+	response.status_code = 200
+	return response
