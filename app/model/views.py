@@ -2,7 +2,7 @@ import os, json
 from flask import Blueprint, jsonify, request
 from app.helper import response, bad_request
 import pandas as pd
-import dill as pickle
+from sklearn.externals import joblib
 import sklearn
 
 
@@ -27,8 +27,9 @@ def predict_ead():
 
 	# Load model 
 	model_name = 'model_v4.pk'
-	with open('./app/model/models/' + model_name, 'rb') as file:
-		model = pickle.load(file)
+	# with open('./app/model/models/' + model_name, 'rb') as file:
+	# 	model = pickle.load(file)
+	model = joblib.load('./app/model/models/' + model_name)
 
 	# Make predictions
 	predictions = model.predict(data)
