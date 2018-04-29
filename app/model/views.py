@@ -26,7 +26,7 @@ def predict_ead():
 	data = data[columns]
 
 	# Load model 
-	model_name = 'model_v2.pk'
+	model_name = 'model_v4.pk'
 	with open('./app/model/models/' + model_name, 'rb') as file:
 		model = pickle.load(file)
 
